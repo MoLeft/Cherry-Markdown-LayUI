@@ -1,6 +1,5 @@
-layui.define(['notice'], function (exports) {
+layui.define([], function (exports) {
     var $ = layui.jquery
-    var notice = layui.notice;
 
     // 先加载css
     layui.link(layui.cache.base + 'cherry-markdown/cherry-markdown.css');
