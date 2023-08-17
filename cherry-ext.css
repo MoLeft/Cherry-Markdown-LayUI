@@ -1,0 +1,11 @@
+/* 上传文件扩展样式 */
+p[data-type="p"]:has(a > img) {
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+p[data-type="p"]:has(a > img):hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+}
